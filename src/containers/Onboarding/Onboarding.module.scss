@@ -1,0 +1,17 @@
+.overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: hard-light;
+  cursor: pointer;
+}
+
+.highlitedArea {
+  border-radius: 4px;
+  position: absolute;
+  background-color: gray;
+  opacity: 1;
+}

@@ -1,0 +1,65 @@
+$shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+
+.container {
+  transition: opacity 0.3s ease 0s;
+  opacity: 1;
+  width: 315px;
+  border-radius: 5px;
+  box-shadow: $shadow;
+}
+
+.contentContainer {
+  display: flex;
+}
+
+.tooltipContent {
+  background: rgba(255, 255, 255, 1);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  position: relative;
+  border-radius: 5px;
+  height: 100%;
+}
+
+.closeButton {
+  height: 13px;
+  width: 13px;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.content {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.actionButton {
+  color: rgba(0, 0, 0, 1);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stepsIndicator {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: rgba(152, 152, 152, 1);
+}
