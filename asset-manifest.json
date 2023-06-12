@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/DivanRu/static/css/main.ef9583d0.css",
+    "main.js": "/DivanRu/static/js/main.aabb818f.js",
+    "static/media/Illustration.png": "/DivanRu/static/media/Illustration.9920b502eeebea8b4403.png",
+    "index.html": "/DivanRu/index.html",
+    "main.ef9583d0.css.map": "/DivanRu/static/css/main.ef9583d0.css.map",
+    "main.aabb818f.js.map": "/DivanRu/static/js/main.aabb818f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef9583d0.css",
+    "static/js/main.aabb818f.js"
+  ]
+}
